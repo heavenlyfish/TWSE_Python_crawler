@@ -38,7 +38,7 @@ for stock_id in id_list:
             smt = get_webmsg(year ,month, stock_id)           #put the data into smt 
             makedirs (year, month, stock_id)                  #create directory function
             write_csv (stock_id,directory, filename, smt)    # write files into CSV
-            time.sleep(1)
+            time.sleep(2)
             
 
 
